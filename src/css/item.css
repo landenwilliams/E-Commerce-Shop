@@ -1,0 +1,53 @@
+#Bio{
+    display:flex;
+    flex-direction:row;
+    padding:60px;
+    justify-content:space-between;
+    border: solid 2px white;
+    border-radius:10px;
+    margin: 10%;
+    
+}
+
+#singleimg{
+    display:flex;
+    width:50%;
+    
+}
+.singlepic{
+    border: solid 2px white;
+    border-radius: 10px;
+    height:100%;
+    width:100%;
+    
+}
+
+
+#lifestory{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-size:25px;
+    width:20%;
+    margin:20px;
+}
+
+#Singleaddcart{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-size:25px;
+    width:30%;
+    margin:40px;
+    padding:5px;
+}
+
+.Backstory{
+    text-align:center;
+    color:white;
+
+}
+
+/* .singleprice{
+    font-size:25px;
+} */

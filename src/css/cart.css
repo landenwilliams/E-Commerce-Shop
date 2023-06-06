@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+#cartbox {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#cartbox > .item {
+  margin: 10px;
+}
+
+#carthead {
+  color:#c4a389;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width:100%;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 50px;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  border-top: white 2px solid;
+  border-bottom: white 2px solid;
+}
+
+.cartpic {
+  width:120px;
+  height:120px;
+  margin: 5px;
+}
+
+.item {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  border:white solid 1.5px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  height: fit-content;
+  width: 550px;
+}
+
+.item > * {
+  margin:10px;
+}
+
+.item .name {
+    font-family:'Sedgwick Ave Display';
+    font-size: 30px;
+    text-decoration: none;
+    color:#c4a389;
+}
+
+.item .name:hover {
+  color:white;
+}
+
+.middiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.buttdiv {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.butts {
+  width:fit-content;
+  height:fit-content;
+  background-color: white;
+  border:2px solid ;
+  border-radius: 10px;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 16px;
+  color:#c4a389;
+  align-self: flex-end;
+  padding:8px;
+}
+
+.butts:hover {
+  background-color: #c4a389;
+  color:white;
+}
+
+#cartbox #checkout {
+  align-self: center;
+  backdrop-filter: blur(4px);
+  border:white solid 1.5px;
+  border-radius: 10px;
+  height: fit-content;
+  width: 550px;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display';
+  color:#c4a389;
+}
+
+.checkbutt {
+  width:fit-content;
+  height:fit-content;
+  background-color: #493829;
+  border:2px solid #c4a389;
+  border-radius: 10px;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 16px;
+  color:white;
+  align-self: flex-end;
+  padding:8px;
+  margin:15px;
+}
+
+.checkbutt:hover {
+  background-color: white;
+  color:#c4a389;
+}
+
+
+

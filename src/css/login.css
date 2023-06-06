@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+#logpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 80px;
+}
+
+#logform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #493829;
+  border:3px solid #c4a389;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 10px;
+}
+.userpass{
+  border: 2px solid #c4a389;
+  border-radius: 10px;
+  border-style: inset;
+  margin: 4px;
+  padding: 5px;
+}
+
+.logreg{
+  background-color: white;
+  box-shadow: 5px 3px 3px black;
+  border: 0px;
+  border-radius: 10px;
+  color:#c4a389;
+  font-size: 21px;
+  font-family: 'Just Another Hand';
+  font-weight: lighter;
+  width: fit-content;
+  margin: 8px;
+  padding: 5px;
+}
+
+.logreg:hover {
+  background-color: #c4a389;
+  box-shadow: 0px 5px 8px black;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.sublog{
+  margin: 4px;
+  border: none;
+  color: #c4a389;
+  background-color: #493829;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 25px;
+}
+
+.sublog:hover{
+  color: white;
+}

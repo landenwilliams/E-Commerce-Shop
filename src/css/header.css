@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display%27');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+
+#headclan {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #493829;
+    border-radius:15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width:70%;
+    height:70px;
+    position:sticky;
+    padding: 5px;
+}
+
+#headclan > * {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px;
+}
+
+#headclan > *:hover {
+    background-color: #c4a389;
+    box-shadow: 0px 5px 8px black;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.iconCon {
+    background-color: white;
+    box-shadow: 5px 3px 3px black;
+    border: 0px;
+    border-radius: 10px;
+    color:#c4a389;
+}
+
+.icon {
+    height:35px;
+    width: 35px;
+}
+
+.log {
+    padding:8px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:white;
+    color:#c4a389;
+    box-shadow: 5px 3px 3px black;
+    /* border: 2px solid aqua; */
+    font-family: 'Sedgwick Ave Display';
+    font-size: 20px;
+}
+
+#title{
+    text-decoration: none;
+    text-align: center;
+    /* border: 2px solid aqua; */
+    background-color: white;
+    box-shadow: 5px 3px 3px black;
+    color:#c4a389;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family:'Sedgwick Ave Display';
+    border-radius:10px;
+}
+
+h1 {
+    margin:0;
+}
